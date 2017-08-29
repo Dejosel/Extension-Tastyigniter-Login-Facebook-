@@ -66,7 +66,7 @@ class Admin_facebook_module extends Admin_Controller {
 	        } else if ($this->input->post('facebook_login_redirect_url')) {
 		        $data['facebook_login_redirect_url'] = $this->input->post('facebook_login_redirect_url');
 	        } else {
-		        $data['facebook_login_redirect_url'] = '';
+		        $data['facebook_login_redirect_url'] = 'login';
 	        }
 
             if (isset($ext_data['facebook_logout_redirect_url'])) {
@@ -74,7 +74,7 @@ class Admin_facebook_module extends Admin_Controller {
 	        } else if ($this->input->post('facebook_logout_redirect_url')) {
 		        $data['facebook_logout_redirect_url'] = $this->input->post('facebook_logout_redirect_url');
 	        } else {
-		        $data['facebook_logout_redirect_url'] = '';
+		        $data['facebook_logout_redirect_url'] = 'logout';
 	        }
 
 
