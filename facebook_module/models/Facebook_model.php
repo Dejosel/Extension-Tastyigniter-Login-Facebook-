@@ -5,7 +5,7 @@ class Facebook_model extends TI_Model {
     public function __construct() {
         parent::__construct();
         
-        $this->tableName = 'teja_customers';
+        $this->tableName = 'customers';
         $this->primaryKey = 'customer_id';
     }
 
