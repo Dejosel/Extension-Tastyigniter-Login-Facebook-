@@ -14,5 +14,5 @@ ALTER TABLE `(your_dbprefix)customers`
  ADD COLUMN `date_modified` datetime NOT NULL,
  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ```
-3)
+3)Install the extension in the admin panel in your web.
 
