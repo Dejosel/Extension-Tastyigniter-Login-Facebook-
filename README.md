@@ -1,6 +1,7 @@
 # Extension-Tastyigniter-Login-Facebook-
 # Manual Installation
 1)Create a Facebook app in Facebook developers panel and get the App ID and App Secret (https://developers.facebook.com/)
+
 2)Update the database by running this SQL query: 
 ```SQL
 ALTER TABLE `(your_dbprefix)customers` 
