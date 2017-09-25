@@ -12,7 +12,7 @@ class Facebook_model extends TI_Model {
     public function checkUser($data = array()){
         $this->db->select($this->primaryKey);
         $this->db->from($this->tableName);
-        $this->db->where(array('oauth_provider'=>$data['oauth_provider'],'oauth_uid'=>$data['oauth_uid']));
+        $this->db->where(array('email'=>$data['email']));
         $prevQuery = $this->db->get();
         $prevCheck = $prevQuery->num_rows();
         
