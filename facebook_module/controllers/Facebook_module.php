@@ -41,8 +41,6 @@ class Facebook_module extends Main_Controller {
             $userData['locale'] 			= $userProfile['locale'];
             $userData['profile_url'] 		= 'https://www.facebook.com/'.$userProfile['id'];
             $userData['picture_url'] 		= $userProfile['picture']['data']['url'];
-            $userData['address_id']			= '0';
-            $userData['newsletter']			= '0';
             $userData['customer_group_id']	= '11';
             $userData['status']				= '1';
 			
